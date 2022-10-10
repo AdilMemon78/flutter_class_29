@@ -28,11 +28,11 @@ class Myapp extends StatelessWidget {
               onPressed: () {
                 print("Laptops");
               },
-              icon: Icon(Icons.laptop_mac_sharp),
+              icon: Icon(Icons.laptop),
             ),
             IconButton(
               onPressed: () {
-                print("object");
+                print("Home");
               },
               icon: Icon(Icons.home),
             ),
@@ -64,7 +64,7 @@ class Myapp extends StatelessWidget {
             "Exit",
           ),
           backgroundColor: Colors.yellow,
-          foregroundColor: Colors.teal,
+          foregroundColor: Colors.black,
         ),
       ),
     );

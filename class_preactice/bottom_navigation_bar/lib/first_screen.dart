@@ -27,7 +27,11 @@ class _first_screenState extends State<first_screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("aaaaa")),
+      appBar: AppBar(
+        title: Text(
+          "Bottom Navigation Bar.",
+        ),
+      ),
       body: Center(child: mywidget.elementAt(currentindex)),
       bottomNavigationBar: BottomNavigationBar(
         items: [

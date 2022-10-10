@@ -43,7 +43,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const_app());
+  runApp(const_Myapp());
 }
 
 class const_app extends StatelessWidget {
@@ -71,7 +71,7 @@ class const_app extends StatelessWidget {
           backgroundColor: Colors.black,
         ),
         body: Column(
-          //   mainAxisAlignment: MainAxisAlignment.center,
+             mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               width: double.infinity,
