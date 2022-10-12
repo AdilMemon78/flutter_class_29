@@ -21,8 +21,8 @@ class _MyAppState extends State<MyApp> {
           title: Text("Statefull Widgets 1."),
         ),
         body: Container(
-          height: 100,
-          width: 100,
+          height: double.maxFinite,
+          width: double.maxFinite,
           color: colorname,
           child: TextButton(
             child: Text("Click here"),

@@ -46,7 +46,7 @@ class Myapp extends StatelessWidget {
                     decoration: InputDecoration(
                       hintText: "First example@gmail.com",
                       labelText: "Enter Email",
-                      prefixIcon: Icon(Icons.alternate_email_rounded),
+                      prefixIcon: Icon(Icons.email),
                       //   fillColor: Colors.red,
                       labelStyle: TextStyle(
                           color: Colors.black87,

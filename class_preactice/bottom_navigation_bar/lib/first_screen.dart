@@ -44,7 +44,7 @@ class _first_screenState extends State<first_screen> {
           ),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.percent,
+                Icons.person,
                 color: Colors.orange,
               ),
               label: "user",
