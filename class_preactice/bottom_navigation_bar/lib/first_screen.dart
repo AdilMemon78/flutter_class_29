@@ -32,7 +32,8 @@ class _first_screenState extends State<first_screen> {
           "Bottom Navigation Bar.",
         ),
       ),
-      body: Center(child: mywidget.elementAt(currentindex)),
+      body: Center(
+        child: mywidget.elementAt(currentindex)),
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(

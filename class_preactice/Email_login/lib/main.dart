@@ -15,7 +15,7 @@ class Myapp extends StatelessWidget {
         backgroundColor: Colors.white,
         appBar: AppBar(
           leading: Icon(
-            Icons.mail_rounded,
+            Icons.e_mobiledata,
             color: Color.fromARGB(255, 122, 43, 37),
             size: 25,
           ),

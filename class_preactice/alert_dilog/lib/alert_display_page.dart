@@ -46,11 +46,6 @@ class Alertpage extends StatelessWidget {
               //  print("are you sure want contuine");
             },
             child: Text("No")),
-        TextButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-            child: Text("")),
       ],
     );
     showDialog(

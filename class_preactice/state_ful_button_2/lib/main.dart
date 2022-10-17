@@ -12,8 +12,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String? msg = "";
-  TextEditingController? mynamecontroller = TextEditingController();
+  String? text = "";
+  TextEditingController? Adil = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
               margin: EdgeInsets.all(12),
               padding: EdgeInsets.all(12),
               child: TextField(
-                  controller: mynamecontroller,
+                  controller: Adil,
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.blue)),
@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
             Container(
                 margin: EdgeInsets.all(12),
                 padding: EdgeInsets.all(12),
-                child: Text(msg!)),
+                child: Text(text!)),
           ],
         ),
       ),
@@ -58,8 +58,8 @@ class _MyAppState extends State<MyApp> {
 
   void displayMessage() {
     setState(() {
-      msg = mynamecontroller!.text.toString();
-      print("--------msg  is $msg ");
+      text = Adil!.text.toString();
+      print("--------msg  is $text ");
     });
   }
 }
